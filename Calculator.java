@@ -14,4 +14,8 @@ public class Calculator {
   public static int subtract(int a, int b) {
     return a - b;
   }
+
+  public static int multiple(int a, int b) {
+    return a * b;
+  }
 }
