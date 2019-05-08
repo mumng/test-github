@@ -7,11 +7,11 @@ public class Calculator {
     System.out.println( sum(a,b) );
   }
 
-  private static int sum(int a, int b) {
+  public static int sum(int a, int b) {
     return a + b;
   }
 
-  private static int subtract(int a, int b) {
+  public static int subtract(int a, int b) {
     return a - b;
   }
 }
